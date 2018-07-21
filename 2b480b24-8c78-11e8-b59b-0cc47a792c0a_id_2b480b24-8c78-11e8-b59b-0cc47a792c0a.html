@@ -1,0 +1,500 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:Tahoma,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Tahoma,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_003{font-family:Arial,serif;font-size:29.1px;color:rgb(255,254,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Arial,serif;font-size:29.1px;color:rgb(255,254,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:22.2px;color:rgb(255,254,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:22.2px;color:rgb(255,254,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_080{font-family:Arial,serif;font-size:18.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_080{font-family:Arial,serif;font-size:18.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:12.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:12.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_081{font-family:Arial,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_081{font-family:Arial,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Arial,serif;font-size:12.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Arial,serif;font-size:12.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_010{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_012{font-family:Arial,serif;font-size:12.6px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_012{font-family:Arial,serif;font-size:12.6px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_015{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_015{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_014{font-family:Arial,serif;font-size:16.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_014{font-family:Arial,serif;font-size:16.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_013{font-family:Arial,serif;font-size:28.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_013{font-family:Arial,serif;font-size:28.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Tahoma,serif;font-size:13.6px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Tahoma,serif;font-size:13.6px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_018{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_018{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Arial,serif;font-size:14.1px;color:rgb(255,254,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_019{font-family:Arial,serif;font-size:14.1px;color:rgb(255,254,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_020{font-family:Arial,serif;font-size:17.7px;color:rgb(102,101,102);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_020{font-family:Arial,serif;font-size:17.7px;color:rgb(102,101,102);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_021{font-family:Arial,serif;font-size:16.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_021{font-family:Arial,serif;font-size:16.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_022{font-family:Arial,serif;font-size:12.1px;color:rgb(255,254,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_022{font-family:Arial,serif;font-size:12.1px;color:rgb(255,254,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_023{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_023{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_027{font-family:Tahoma,serif;font-size:21.6px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_027{font-family:Tahoma,serif;font-size:21.6px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_025{font-family:Arial,serif;font-size:6.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_025{font-family:Arial,serif;font-size:6.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_026{font-family:Arial,serif;font-size:6.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_026{font-family:Arial,serif;font-size:6.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_028{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_028{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_029{font-family:Arial,serif;font-size:6.8px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_029{font-family:Arial,serif;font-size:6.8px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_031{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_031{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_030{font-family:Arial,serif;font-size:7.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_030{font-family:Arial,serif;font-size:7.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_032{font-family:Arial,serif;font-size:12.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_032{font-family:Arial,serif;font-size:12.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_033{font-family:Arial,serif;font-size:7.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_033{font-family:Arial,serif;font-size:7.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_034{font-family:Arial,serif;font-size:7.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_034{font-family:Arial,serif;font-size:7.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_035{font-family:Arial,serif;font-size:7.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_035{font-family:Arial,serif;font-size:7.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_082{font-family:Arial,serif;font-size:16.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_082{font-family:Arial,serif;font-size:16.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_054{font-family:Arial,serif;font-size:12.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_054{font-family:Arial,serif;font-size:12.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_055{font-family:Arial,serif;font-size:12.8px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_055{font-family:Arial,serif;font-size:12.8px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_056{font-family:Arial,serif;font-size:12.8px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_056{font-family:Arial,serif;font-size:12.8px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_036{font-family:Arial,serif;font-size:15.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_036{font-family:Arial,serif;font-size:15.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_037{font-family:Arial,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_037{font-family:Arial,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_038{font-family:Arial,serif;font-size:15.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_038{font-family:Arial,serif;font-size:15.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_039{font-family:Arial,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_039{font-family:Arial,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_040{font-family:Arial,serif;font-size:15.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_040{font-family:Arial,serif;font-size:15.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_041{font-family:Arial,serif;font-size:14.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_041{font-family:Arial,serif;font-size:14.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_042{font-family:Arial,serif;font-size:15.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_042{font-family:Arial,serif;font-size:15.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_043{font-family:Arial,serif;font-size:15.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_043{font-family:Arial,serif;font-size:15.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_044{font-family:Arial,serif;font-size:15.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_044{font-family:Arial,serif;font-size:15.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_045{font-family:Arial,serif;font-size:14.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_045{font-family:Arial,serif;font-size:14.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_046{font-family:Arial,serif;font-size:15.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_046{font-family:Arial,serif;font-size:15.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_047{font-family:Arial,serif;font-size:15.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_047{font-family:Arial,serif;font-size:15.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_048{font-family:Arial,serif;font-size:15.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_048{font-family:Arial,serif;font-size:15.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_049{font-family:Arial,serif;font-size:15.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_049{font-family:Arial,serif;font-size:15.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_050{font-family:Arial,serif;font-size:15.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_050{font-family:Arial,serif;font-size:15.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_051{font-family:Arial,serif;font-size:15.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_051{font-family:Arial,serif;font-size:15.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_052{font-family:Arial,serif;font-size:15.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_052{font-family:Arial,serif;font-size:15.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_053{font-family:Arial,serif;font-size:15.8px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_053{font-family:Arial,serif;font-size:15.8px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_057{font-family:Arial,serif;font-size:15.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_057{font-family:Arial,serif;font-size:15.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_059{font-family:Arial,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_059{font-family:Arial,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_058{font-family:Arial,serif;font-size:14.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_058{font-family:Arial,serif;font-size:14.4px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_061{font-family:Arial,serif;font-size:14.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_061{font-family:Arial,serif;font-size:14.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_060{font-family:Arial,serif;font-size:14.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_060{font-family:Arial,serif;font-size:14.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_062{font-family:Arial,serif;font-size:14.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_062{font-family:Arial,serif;font-size:14.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_063{font-family:Arial,serif;font-size:15.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_063{font-family:Arial,serif;font-size:15.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_064{font-family:Arial,serif;font-size:14.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_064{font-family:Arial,serif;font-size:14.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_065{font-family:Arial,serif;font-size:14.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_065{font-family:Arial,serif;font-size:14.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_066{font-family:Arial,serif;font-size:14.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_066{font-family:Arial,serif;font-size:14.2px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_068{font-family:Arial,serif;font-size:15.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_068{font-family:Arial,serif;font-size:15.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_067{font-family:Arial,serif;font-size:14.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_067{font-family:Arial,serif;font-size:14.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_069{font-family:Arial,serif;font-size:14.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_069{font-family:Arial,serif;font-size:14.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_070{font-family:Arial,serif;font-size:14.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_070{font-family:Arial,serif;font-size:14.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_071{font-family:Arial,serif;font-size:14.8px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_071{font-family:Arial,serif;font-size:14.8px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_072{font-family:Arial,serif;font-size:14.8px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_072{font-family:Arial,serif;font-size:14.8px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_073{font-family:Arial,serif;font-size:14.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_073{font-family:Arial,serif;font-size:14.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_074{font-family:Arial,serif;font-size:14.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_074{font-family:Arial,serif;font-size:14.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_075{font-family:Arial,serif;font-size:14.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_075{font-family:Arial,serif;font-size:14.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_076{font-family:Tahoma,serif;font-size:11.0px;color:rgb(255,254,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_076{font-family:Tahoma,serif;font-size:11.0px;color:rgb(255,254,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_078{font-family:Tahoma,serif;font-size:9.0px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_078{font-family:Tahoma,serif;font-size:9.0px;color:rgb(255,254,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_079{font-family:Tahoma,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_079{font-family:Tahoma,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="2b480b24-8c78-11e8-b59b-0cc47a792c0a_id_2b480b24-8c78-11e8-b59b-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-306px;top:0px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2b480b24-8c78-11e8-b59b-0cc47a792c0a_id_2b480b24-8c78-11e8-b59b-0cc47a792c0a_files/background1.jpg" width=612 height=792></div>
+<div style="position:absolute;left:539.14px;top:8.50px" class="cls_002"><span class="cls_002">JULY 2018</span></div>
+<div style="position:absolute;left:78.00px;top:20.47px" class="cls_003"><span class="cls_003">I</span><span class="cls_004">CONIC </span><span class="cls_003">M</span><span class="cls_004">ARKETING </span><span class="cls_003">G</span><span class="cls_004">ROUP</span></div>
+<div style="position:absolute;left:96.66px;top:52.49px" class="cls_004"><span class="cls_004">JULY 2018 - NEWSLETTER</span></div>
+<div style="position:absolute;left:9.21px;top:89.01px" class="cls_080"><span class="cls_080">MARKET SUMMARY</span></div>
+<div style="position:absolute;left:9.21px;top:124.49px" class="cls_006"><span class="cls_006">British Columbia (BC) is projected to be a leader in economic growth for 2018. It managed to maintain GDP growth</span></div>
+<div style="position:absolute;left:9.21px;top:139.37px" class="cls_006"><span class="cls_006">of over 3% for the past couple of years and is now expected to slow to a normalized rate of 2.4% this year and 2.1%</span></div>
+<div style="position:absolute;left:9.21px;top:154.25px" class="cls_006"><span class="cls_006">in 2019. Vancouver continues to experience a  ordability issues, but sales activity on the residential side weakened in</span></div>
+<div style="position:absolute;left:9.21px;top:169.13px" class="cls_006"><span class="cls_006">the month of April, which was also seen in Toronto. Although sales activity dropped, prices were still up by 14.3%</span></div>
+<div style="position:absolute;left:9.21px;top:184.01px" class="cls_006"><span class="cls_006">from a year ago. In order to improve the overall a  ordability concern in the province, market cooling measures were</span></div>
+<div style="position:absolute;left:9.21px;top:198.89px" class="cls_006"><span class="cls_006">announced in the 2018 BC budget back in February. The implementation of these policies, such as the expansion of</span></div>
+<div style="position:absolute;left:9.21px;top:213.77px" class="cls_006"><span class="cls_006">the foreign-buyer tax and speculation tax, are expected to contribute in stabilizing the market this year. The unem-</span></div>
+<div style="position:absolute;left:9.21px;top:228.65px" class="cls_006"><span class="cls_006">ployment rate is expected to decrease to 4.8%, however, employment growth is also expected to slow to 1.2% this</span></div>
+<div style="position:absolute;left:9.21px;top:243.53px" class="cls_006"><span class="cls_006">year, which is below the national average of 1.5%. This will play a factor, along with the high cost of living, in the</span></div>
+<div style="position:absolute;left:9.21px;top:258.41px" class="cls_006"><span class="cls_006">decrease of interprovincial migration.</span></div>
+<div style="position:absolute;left:9.21px;top:288.17px" class="cls_006"><span class="cls_006">The Bank of Canada is projected to raise interest rates again in July, but they will be very cautious with any policy</span></div>
+<div style="position:absolute;left:9.21px;top:303.05px" class="cls_006"><span class="cls_006">adjustments due to the unpredictability in trade rules. There is a lot of economic uncertainty circling NAFTA’s termi-</span></div>
+<div style="position:absolute;left:9.21px;top:317.92px" class="cls_006"><span class="cls_006">nation, and one of the current issues at play being the decision made by the U.S. to impose steep tari  s on Canadian</span></div>
+<div style="position:absolute;left:9.21px;top:332.80px" class="cls_006"><span class="cls_006">steel and aluminum products as of June 1st this year. The tari  s were also levied on both Mexico and the European</span></div>
+<div style="position:absolute;left:9.21px;top:347.68px" class="cls_006"><span class="cls_006">Union. Approximately 90% of Canadian steel and aluminum exports go to the U.S.; therefore the tari  s will have a</span></div>
+<div style="position:absolute;left:9.21px;top:362.56px" class="cls_006"><span class="cls_006">signi cant impact on these trades. Canada has already retaliated by announcing their intentions to levy tari  s on</span></div>
+<div style="position:absolute;left:9.21px;top:377.44px" class="cls_006"><span class="cls_006">$16.6 billion worth of goods from the U.S., which matches the value of the Canadian 2017 exports impacted by the</span></div>
+<div style="position:absolute;left:9.21px;top:392.32px" class="cls_006"><span class="cls_006">U.S. tari  s. Overall, this will not impact the overall consumer price that drastically. The higher prices for Canadian</span></div>
+<div style="position:absolute;left:9.21px;top:407.20px" class="cls_006"><span class="cls_006">imports will only amount to 2% of Canada’s annual imports. The U.S. has justi ed these tari  s as both an issue of</span></div>
+<div style="position:absolute;left:9.21px;top:422.08px" class="cls_006"><span class="cls_006">national security and also due to Mexico and Canada not being able to come to an agreement on NAFTA before the</span></div>
+<div style="position:absolute;left:9.21px;top:436.96px" class="cls_006"><span class="cls_006">end of May. The uncertainty of not knowing which industry could be the next target of tari  s may be an issue for</span></div>
+<div style="position:absolute;left:9.21px;top:451.84px" class="cls_006"><span class="cls_006">investors.</span></div>
+<div style="position:absolute;left:9.21px;top:481.60px" class="cls_006"><span class="cls_006">Given this economic backdrop, the o  ce, industrial and retail commercial real estate markets in the Greater Vancou-</span></div>
+<div style="position:absolute;left:9.21px;top:496.48px" class="cls_006"><span class="cls_006">ver Area remain deeply embedded in favour of landlords. The o  ce market vacancy rate decreased by 80 basis points</span></div>
+<div style="position:absolute;left:9.21px;top:511.36px" class="cls_006"><span class="cls_006">(bps) from the end of Q1 2018, to end May 2018 at 5.5%, and down 160 bps year-over-year. The average net asking</span></div>
+<div style="position:absolute;left:9.21px;top:526.24px" class="cls_006"><span class="cls_006">rental rate, at $23.76/sq. ft. per annum in May 2018, is down 2.3% year-over-year mainly as a result of the product mix</span></div>
+<div style="position:absolute;left:9.21px;top:541.12px" class="cls_006"><span class="cls_006">that is left available on the market. It is important to note that downtown vacancy remains exceptionally low, down</span></div>
+<div style="position:absolute;left:9.21px;top:556.00px" class="cls_006"><span class="cls_006">160 bps year-over-year to 4.0%, with minimal options for tenants looking for larger spaces, and as a result rental rates</span></div>
+<div style="position:absolute;left:9.21px;top:570.88px" class="cls_006"><span class="cls_006">continue to edge up downtown. Due to the limited options currently available downtown, demand is spilling over</span></div>
+<div style="position:absolute;left:9.21px;top:585.76px" class="cls_006"><span class="cls_006">into the suburban markets, with average suburban vacancy also down 160 bps year-over-year to 6.5%, however, sub-</span></div>
+<div style="position:absolute;left:9.21px;top:600.64px" class="cls_006"><span class="cls_006">urban rents are now up almost 2.0% year-over year to $21.54/sq. ft. per annum. Furthermore, construction activity</span></div>
+<div style="position:absolute;left:9.21px;top:615.52px" class="cls_006"><span class="cls_006">has increased to approximately 2.4 million SF, representing the equivalent of 2.8% of existing inventory, compared to</span></div>
+<div style="position:absolute;left:9.21px;top:630.40px" class="cls_006"><span class="cls_006">only 1.7 million SF representing only 2.0% of existing inventory under construction at the end of 2017. With limited</span></div>
+<div style="position:absolute;left:9.21px;top:645.28px" class="cls_006"><span class="cls_006">new supply expected in the short term, expect vacancy to remain tight and rental rates to increase.</span></div>
+<div style="position:absolute;left:9.21px;top:675.04px" class="cls_006"><span class="cls_006">The industrial market experienced a 50 bps drop since the end of Q1 2018, ending May 2018 at 2.3%. As a result the</span></div>
+<div style="position:absolute;left:9.21px;top:689.92px" class="cls_006"><span class="cls_006">average net asking rental rate continued to increase, up 11.3% year-over-year to $10.22/sq. ft. per annum. The retail</span></div>
+<div style="position:absolute;left:9.21px;top:704.80px" class="cls_006"><span class="cls_006">market vacancy at the end of May, at 2.7%, was down 30 bps from Q1 2018, yet only down 20 bps year-over-year, with</span></div>
+<div style="position:absolute;left:9.21px;top:719.68px" class="cls_006"><span class="cls_006">the average net asking rental rate up 15.2% year-over-year to $30.25/sq. ft. per annum.</span></div>
+<div style="position:absolute;left:9.21px;top:748.48px" class="cls_007"><span class="cls_007">Source: CoStarCanada</span></div>
+<div style="position:absolute;left:312.22px;top:770.92px" class="cls_002"><span class="cls_002">Iconic Marketing Group - Newsletter - July 2018</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:802px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2b480b24-8c78-11e8-b59b-0cc47a792c0a_id_2b480b24-8c78-11e8-b59b-0cc47a792c0a_files/background2.jpg" width=612 height=792></div>
+<div style="position:absolute;left:539.14px;top:8.50px" class="cls_002"><span class="cls_002">JULY 2018</span></div>
+<div style="position:absolute;left:78.00px;top:20.30px" class="cls_003"><span class="cls_003">I</span><span class="cls_004">CONIC </span><span class="cls_003">M</span><span class="cls_004">ARKETING </span><span class="cls_003">G</span><span class="cls_004">ROUP</span></div>
+<div style="position:absolute;left:96.66px;top:52.32px" class="cls_004"><span class="cls_004">JULY 2018 - NEWSLETTER</span></div>
+<div style="position:absolute;left:9.00px;top:88.52px" class="cls_081"><span class="cls_081">LAND OWNER TRANSPARENCY ACT</span></div>
+<div style="position:absolute;left:9.00px;top:123.88px" class="cls_009"><span class="cls_009">Currently in B.C., people can hide their ownership behind numbered companies, o  shore and domestic trusts, and</span></div>
+<div style="position:absolute;left:9.00px;top:138.76px" class="cls_009"><span class="cls_009">corporations. This makes enforcement di  cult.</span></div>
+<div style="position:absolute;left:9.00px;top:168.52px" class="cls_009"><span class="cls_009">To improve tax agencies’ ability to enforce laws, the B.C. government is proposing to collect information about bene-</span></div>
+<div style="position:absolute;left:15.49px;top:183.40px" class="cls_009"><span class="cls_009">cial ownership of land in a public registry. The registry would help give tax authorities and law enforcement the</span></div>
+<div style="position:absolute;left:9.00px;top:198.28px" class="cls_009"><span class="cls_009">information they need to crack down on tax evasion, and identify tax fraud and money laundering. The public regis-</span></div>
+<div style="position:absolute;left:9.00px;top:213.16px" class="cls_009"><span class="cls_009">try would be administered by the Land Title and Survey Authority of British Columbia.</span></div>
+<div style="position:absolute;left:9.00px;top:242.92px" class="cls_009"><span class="cls_009">Creating the registry requires a new Act. As a  rst step, the B.C. government has released a white paper (PDF) on the</span></div>
+<div style="position:absolute;left:9.00px;top:257.80px" class="cls_009"><span class="cls_009">draft legislation, the Land Owner Transparency Act. Under this new law, corporations, trustees and partners (report-</span></div>
+<div style="position:absolute;left:9.00px;top:272.68px" class="cls_009"><span class="cls_009">ing bodies) will be required to report who the bene cial owners of properties are through disclosure reports.</span></div>
+<div style="position:absolute;left:9.00px;top:302.44px" class="cls_009"><span class="cls_009">By creating a public registry, the government’s goal is to help end hidden ownership and return a sense of fairness</span></div>
+<div style="position:absolute;left:9.00px;top:317.32px" class="cls_009"><span class="cls_009">and transparency to the real estate market in British Columbia.</span></div>
+<div style="position:absolute;left:9.00px;top:346.60px" class="cls_010"><span class="cls_010">Source: Land Owner Transparency Act</span></div>
+<div style="position:absolute;left:9.44px;top:392.52px" class="cls_081"><span class="cls_081">OVERALL MARKET ACTIVITY</span></div>
+<div style="position:absolute;left:310.60px;top:392.52px" class="cls_081"><span class="cls_081">MARKET ACTIVITY BY ASSET TYPE</span></div>
+<div style="position:absolute;left:9.44px;top:421.52px" class="cls_011"><span class="cls_011">Properties For Sale</span></div>
+<div style="position:absolute;left:310.60px;top:421.86px" class="cls_011"><span class="cls_011">O  ce</span></div>
+<div style="position:absolute;left:325.50px;top:452.50px" class="cls_012"><span class="cls_012">Avg Sale Price</span></div>
+<div style="position:absolute;left:442.40px;top:452.50px" class="cls_012"><span class="cls_012">Vacancy</span></div>
+<div style="position:absolute;left:534.15px;top:452.50px" class="cls_012"><span class="cls_012">Avg Rent</span></div>
+<div style="position:absolute;left:327.83px;top:468.60px" class="cls_008"><span class="cls_008">$481 </span><span class="cls_015">/SQFT</span></div>
+<div style="position:absolute;left:448.74px;top:470.60px" class="cls_014"><span class="cls_014">5.5%</span></div>
+<div style="position:absolute;left:521.31px;top:470.60px" class="cls_014"><span class="cls_014">$23.67</span><span class="cls_015">/SQFT</span></div>
+<div style="position:absolute;left:30.63px;top:472.00px" class="cls_008"><span class="cls_008">Active</span></div>
+<div style="position:absolute;left:128.98px;top:471.00px" class="cls_008"><span class="cls_008">Added</span></div>
+<div style="position:absolute;left:233.15px;top:471.00px" class="cls_008"><span class="cls_008">Sold</span></div>
+<div style="position:absolute;left:32.46px;top:495.60px" class="cls_013"><span class="cls_013">845</span></div>
+<div style="position:absolute;left:132.29px;top:494.60px" class="cls_013"><span class="cls_013">186</span></div>
+<div style="position:absolute;left:227.79px;top:494.60px" class="cls_013"><span class="cls_013">111</span></div>
+<div style="position:absolute;left:310.60px;top:530.52px" class="cls_011"><span class="cls_011">Industrial</span></div>
+<div style="position:absolute;left:325.50px;top:562.40px" class="cls_012"><span class="cls_012">Avg Sale Price</span></div>
+<div style="position:absolute;left:442.40px;top:562.50px" class="cls_012"><span class="cls_012">Vacancy</span></div>
+<div style="position:absolute;left:535.63px;top:562.40px" class="cls_012"><span class="cls_012">Avg Rent</span></div>
+<div style="position:absolute;left:327.83px;top:578.50px" class="cls_008"><span class="cls_008">$335 </span><span class="cls_015">/SQFT</span></div>
+<div style="position:absolute;left:448.74px;top:580.60px" class="cls_014"><span class="cls_014">2.3%</span></div>
+<div style="position:absolute;left:521.68px;top:578.10px" class="cls_014"><span class="cls_014">$10.22</span><span class="cls_015">/SQFT</span></div>
+<div style="position:absolute;left:11.35px;top:592.17px" class="cls_011"><span class="cls_011">Spaces For Lease</span></div>
+<div style="position:absolute;left:31.88px;top:641.50px" class="cls_008"><span class="cls_008">Active</span></div>
+<div style="position:absolute;left:127.96px;top:641.50px" class="cls_008"><span class="cls_008">Added</span></div>
+<div style="position:absolute;left:221.31px;top:642.50px" class="cls_008"><span class="cls_008">Leased</span></div>
+<div style="position:absolute;left:310.60px;top:646.19px" class="cls_011"><span class="cls_011">Retail</span></div>
+<div style="position:absolute;left:322.50px;top:679.00px" class="cls_012"><span class="cls_012">Avg Sale Price</span></div>
+<div style="position:absolute;left:445.23px;top:679.00px" class="cls_012"><span class="cls_012">Vacancy</span></div>
+<div style="position:absolute;left:536.90px;top:679.00px" class="cls_012"><span class="cls_012">Avg Rent</span></div>
+<div style="position:absolute;left:22.30px;top:665.10px" class="cls_013"><span class="cls_013">3,211</span></div>
+<div style="position:absolute;left:226.04px;top:666.10px" class="cls_013"><span class="cls_013">219</span></div>
+<div style="position:absolute;left:131.27px;top:665.10px" class="cls_013"><span class="cls_013">318</span></div>
+<div style="position:absolute;left:324.83px;top:695.10px" class="cls_008"><span class="cls_008">$414 </span><span class="cls_015">/SQFT</span></div>
+<div style="position:absolute;left:451.57px;top:697.10px" class="cls_014"><span class="cls_014">2.7%</span></div>
+<div style="position:absolute;left:522.25px;top:697.10px" class="cls_014"><span class="cls_014">$30.25</span><span class="cls_015">/SQFT</span></div>
+<div style="position:absolute;left:8.90px;top:744.33px" class="cls_010"><span class="cls_010">Source: CoStarCanada</span></div>
+<div style="position:absolute;left:312.22px;top:770.92px" class="cls_002"><span class="cls_002">Iconic Marketing Group - Newsletter - July 2018</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:1604px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2b480b24-8c78-11e8-b59b-0cc47a792c0a_id_2b480b24-8c78-11e8-b59b-0cc47a792c0a_files/background3.jpg" width=612 height=792></div>
+<div style="position:absolute;left:539.14px;top:8.50px" class="cls_002"><span class="cls_002">JULY 2018</span></div>
+<div style="position:absolute;left:78.00px;top:16.30px" class="cls_003"><span class="cls_003">I</span><span class="cls_004">CONIC </span><span class="cls_003">M</span><span class="cls_004">ARKETING </span><span class="cls_003">G</span><span class="cls_004">ROUP</span></div>
+<div style="position:absolute;left:96.66px;top:48.32px" class="cls_004"><span class="cls_004">JULY 2018 - NEWSLETTER</span></div>
+<div style="position:absolute;left:8.42px;top:86.00px" class="cls_081"><span class="cls_081">RECENT SALES</span></div>
+<div style="position:absolute;left:86.27px;top:118.82px" class="cls_017"><span class="cls_017">SOLD</span></div>
+<div style="position:absolute;left:287.64px;top:118.82px" class="cls_017"><span class="cls_017">SOLD</span></div>
+<div style="position:absolute;left:487.64px;top:118.82px" class="cls_017"><span class="cls_017">SOLD</span></div>
+<div style="position:absolute;left:41.15px;top:133.22px" class="cls_017"><span class="cls_017">Price: $28,000,000</span></div>
+<div style="position:absolute;left:242.60px;top:133.22px" class="cls_017"><span class="cls_017">Price: $14,500,000</span></div>
+<div style="position:absolute;left:447.27px;top:133.22px" class="cls_017"><span class="cls_017">Price: $1,927,520</span></div>
+<div style="position:absolute;left:55.12px;top:280.41px" class="cls_018"><span class="cls_018">6688 Willington Ave</span></div>
+<div style="position:absolute;left:256.49px;top:280.69px" class="cls_018"><span class="cls_018">6622 Willington Ave</span></div>
+<div style="position:absolute;left:463.30px;top:282.18px" class="cls_018"><span class="cls_018">786 Powell Street</span></div>
+<div style="position:absolute;left:75.04px;top:294.81px" class="cls_018"><span class="cls_018">Burnaby, BC</span></div>
+<div style="position:absolute;left:276.41px;top:295.09px" class="cls_018"><span class="cls_018">Burnaby, BC</span></div>
+<div style="position:absolute;left:476.41px;top:296.58px" class="cls_018"><span class="cls_018">Burnaby, BC</span></div>
+<div style="position:absolute;left:8.42px;top:332.04px" class="cls_081"><span class="cls_081">UPCOMING LISTINGS</span></div>
+<div style="position:absolute;left:33.20px;top:368.62px" class="cls_019"><span class="cls_019">Development Potential, Land: 14,805 sf</span></div>
+<div style="position:absolute;left:337.09px;top:368.39px" class="cls_019"><span class="cls_019">Development Potential, Size: 12,200 sf</span></div>
+<div style="position:absolute;left:97.13px;top:394.61px" class="cls_020"><span class="cls_020">Coming Soon</span></div>
+<div style="position:absolute;left:398.07px;top:394.38px" class="cls_020"><span class="cls_020">Coming Soon</span></div>
+<div style="position:absolute;left:108.16px;top:500.79px" class="cls_020"><span class="cls_020">Contact Us</span></div>
+<div style="position:absolute;left:409.10px;top:500.56px" class="cls_020"><span class="cls_020">Contact Us</span></div>
+<div style="position:absolute;left:26.08px;top:529.14px" class="cls_021"><span class="cls_021">Vancouver, BC, Marpole Neighborhood</span></div>
+<div style="position:absolute;left:339.81px;top:528.91px" class="cls_021"><span class="cls_021">Vancouver, BC, Downtown Eastside</span></div>
+<div style="position:absolute;left:64.89px;top:564.67px" class="cls_022"><span class="cls_022">Warehouse, Investment Property,</span></div>
+<div style="position:absolute;left:368.62px;top:564.67px" class="cls_022"><span class="cls_022">Warehouse, Investment Property</span></div>
+<div style="position:absolute;left:61.94px;top:579.07px" class="cls_022"><span class="cls_022">Land: 36,457 sf, Leasable: 11,585 sf</span></div>
+<div style="position:absolute;left:363.18px;top:579.07px" class="cls_022"><span class="cls_022">Land: 28,314 sf, Leasable: 13,679 sf</span></div>
+<div style="position:absolute;left:96.83px;top:594.65px" class="cls_020"><span class="cls_020">Coming Soon</span></div>
+<div style="position:absolute;left:398.07px;top:594.65px" class="cls_020"><span class="cls_020">Coming Soon</span></div>
+<div style="position:absolute;left:107.86px;top:700.84px" class="cls_020"><span class="cls_020">Contact Us</span></div>
+<div style="position:absolute;left:409.10px;top:700.84px" class="cls_020"><span class="cls_020">Contact Us</span></div>
+<div style="position:absolute;left:16.49px;top:731.19px" class="cls_023"><span class="cls_023">Coquitlam, BC, Coquitlam West Neighbourhood</span></div>
+<div style="position:absolute;left:336.33px;top:731.19px" class="cls_023"><span class="cls_023">Richmond, BC, Bridgeport Neighborhood</span></div>
+<div style="position:absolute;left:311.31px;top:770.86px" class="cls_002"><span class="cls_002">Iconic Marketing Group - Newsletter - July 2018</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:2406px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2b480b24-8c78-11e8-b59b-0cc47a792c0a_id_2b480b24-8c78-11e8-b59b-0cc47a792c0a_files/background4.jpg" width=612 height=792></div>
+<div style="position:absolute;left:539.14px;top:8.50px" class="cls_002"><span class="cls_002">JULY 2018</span></div>
+<div style="position:absolute;left:78.00px;top:20.47px" class="cls_003"><span class="cls_003">I</span><span class="cls_004">CONIC </span><span class="cls_003">M</span><span class="cls_004">ARKETING </span><span class="cls_003">G</span><span class="cls_004">ROUP</span></div>
+<div style="position:absolute;left:96.66px;top:52.49px" class="cls_004"><span class="cls_004">JULY 2018 - NEWSLETTER</span></div>
+<div style="position:absolute;left:9.00px;top:90.52px" class="cls_081"><span class="cls_081">ACTIVE</span></div>
+<div style="position:absolute;left:38.77px;top:130.34px" class="cls_027"><span class="cls_027">FOR LEASE</span></div>
+<div style="position:absolute;left:240.10px;top:128.89px" class="cls_027"><span class="cls_027">FOR LEASE</span></div>
+<div style="position:absolute;left:455.94px;top:129.89px" class="cls_027"><span class="cls_027">FOR SALE</span></div>
+<div style="position:absolute;left:200.75px;top:275.41px" class="cls_025"><span class="cls_025">com/</span></div>
+<div style="position:absolute;left:401.56px;top:275.28px" class="cls_026"><span class="cls_026">8bJd</span></div>
+<div style="position:absolute;left:18.70px;top:401.41px" class="cls_028"><span class="cls_028">3410 Lougheed Hwy, Vancouver</span></div>
+<div style="position:absolute;left:216.99px;top:401.28px" class="cls_028"><span class="cls_028">958 West 8th Avenue, Vancouver</span></div>
+<div style="position:absolute;left:428.76px;top:400.85px" class="cls_028"><span class="cls_028">3955 Myrtle Street, Burnaby</span></div>
+<div style="position:absolute;left:39.52px;top:421.87px" class="cls_029"><span class="cls_029"> </span><A HREF="https://drive.google.com/open?id=13si1j1qvoj7mdacmz12pnbc1zdsgarof/">https://drive.google.com/open?id=13Si1j1QVOj7MDACmz12pNBC1zdsGaROF</A> </div>
+<div style="position:absolute;left:241.00px;top:422.64px" class="cls_031"><span class="cls_031"> </span><A HREF="https://drive.google.com/open?id=1e2n-ptldnh5nujntlczdkhu_fqbqm61t/">https://drive.google.com/open?id=1e2N-PTldNh5NuJNTLcZdKHu_fQBQm61T</A> </div>
+<div style="position:absolute;left:438.50px;top:422.08px" class="cls_030"><span class="cls_030"> </span><A HREF="https://drive.google.com/open?id=1woxfqzqqrt8bjd_lw3gixs9sneziy__5/">https://drive.google.com/open?id=1WoXfqzqQrT8bJd_LW3GIxS9SNeZiy__5</A> </div>
+<div style="position:absolute;left:54.09px;top:445.89px" class="cls_027"><span class="cls_027">FOR SALE</span></div>
+<div style="position:absolute;left:254.65px;top:445.89px" class="cls_027"><span class="cls_027">FOR SALE</span></div>
+<div style="position:absolute;left:448.50px;top:445.89px" class="cls_027"><span class="cls_027">FOR LEASE</span></div>
+<div style="position:absolute;left:16.54px;top:716.15px" class="cls_032"><span class="cls_032">810 Agnes Street, New Westminster</span></div>
+<div style="position:absolute;left:222.80px;top:716.15px" class="cls_032"><span class="cls_032">12520 Horseshoe Way, Richmond</span></div>
+<div style="position:absolute;left:439.89px;top:716.15px" class="cls_032"><span class="cls_032">760 Waltham Ave, Burnaby</span></div>
+<div style="position:absolute;left:32.50px;top:738.01px" class="cls_033"><span class="cls_033"> </span><A HREF="https://drive.google.com/open?id=16wenz8apghu-qcy2cymj7fg_j-br_n7h/">https://drive.google.com/open?id=16WEnZ8aPGhu-Qcy2cYMj7fg_J-br_n7h</A> </div>
+<div style="position:absolute;left:233.00px;top:738.88px" class="cls_034"><span class="cls_034"> </span><A HREF="https://drive.google.com/open?id=1xuoju7wwfkbqdf5tf7fmohztkw52_kib/">https://drive.google.com/open?id=1XuOJu7wwFkBQdF5tF7fMohZtKW52_Kib</A> </div>
+<div style="position:absolute;left:430.50px;top:738.29px" class="cls_035"><span class="cls_035"> </span><A HREF="https://drive.google.com/open?id=1tgtgqq03vctrn-bjuixc9bph_voqsuai/">https://drive.google.com/open?id=1TGtgqQ03VCtrn-bjuIxc9bph_vOQsuAI</A> </div>
+<div style="position:absolute;left:311.00px;top:770.86px" class="cls_002"><span class="cls_002">Iconic Marketing Group - Newsletter - July 2018</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:3208px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2b480b24-8c78-11e8-b59b-0cc47a792c0a_id_2b480b24-8c78-11e8-b59b-0cc47a792c0a_files/background5.jpg" width=612 height=792></div>
+<div style="position:absolute;left:539.14px;top:8.50px" class="cls_002"><span class="cls_002">JULY 2018</span></div>
+<div style="position:absolute;left:78.00px;top:20.30px" class="cls_003"><span class="cls_003">I</span><span class="cls_004">CONIC </span><span class="cls_003">M</span><span class="cls_004">ARKETING </span><span class="cls_003">G</span><span class="cls_004">ROUP</span></div>
+<div style="position:absolute;left:96.66px;top:52.32px" class="cls_004"><span class="cls_004">JULY 2018 - NEWSLETTER</span></div>
+<div style="position:absolute;left:11.00px;top:90.52px" class="cls_081"><span class="cls_081">COURT ORDERED SALES</span></div>
+<div style="position:absolute;left:10.00px;top:125.95px" class="cls_082"><span class="cls_082">COMMERCIALS</span></div>
+<div style="position:absolute;left:10.00px;top:169.95px" class="cls_021"><span class="cls_021">13783 Rippington Road, Pitt Meadows, BC: Agri-Business: $3,995,000</span></div>
+<div style="position:absolute;left:470.50px;top:171.53px" class="cls_054"><span class="cls_054">h</span></div>
+<div style="position:absolute;left:478.10px;top:171.53px" class="cls_054"><span class="cls_054">ttps://bit.ly/2zg8kGZ</span></div>
+<div style="position:absolute;left:10.00px;top:191.95px" class="cls_021"><span class="cls_021">14021 Rippington Road, Pitt Meadows, BC: Agri-Business: $5,750,000</span></div>
+<div style="position:absolute;left:470.50px;top:193.44px" class="cls_055"><span class="cls_055"> </span><A HREF="https://bit.ly/2nxihmv/">https://bit.ly/2Nxihmv</A> </div>
+<div style="position:absolute;left:10.00px;top:213.95px" class="cls_021"><span class="cls_021">1050 Depot Road, Squamish, BC, Land Commercial:</span></div>
+<div style="position:absolute;left:390.10px;top:213.95px" class="cls_021"><span class="cls_021">$5,900,000</span></div>
+<div style="position:absolute;left:470.50px;top:216.93px" class="cls_056"><span class="cls_056"> </span><A HREF="https://bit.ly/2kvp2vb/">https://bit.ly/2KVP2vb</A> </div>
+<div style="position:absolute;left:10.00px;top:279.95px" class="cls_082"><span class="cls_082">DETACHED</span></div>
+<div style="position:absolute;left:11.00px;top:323.08px" class="cls_021"><span class="cls_021">18211 Lougheed Highway, Pitt Meadows, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:324.08px" class="cls_021"><span class="cls_021">$1,095,000</span></div>
+<div style="position:absolute;left:451.67px;top:322.43px" class="cls_036"><span class="cls_036"> </span><A HREF="https://bit.ly/2u1sq95/">https://bit.ly/2u1sQ95</A> </div>
+<div style="position:absolute;left:11.00px;top:345.08px" class="cls_021"><span class="cls_021">1225 E 63Rd Avenue, Vancouver, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:346.08px" class="cls_021"><span class="cls_021">$1,229,900</span></div>
+<div style="position:absolute;left:449.67px;top:344.41px" class="cls_037"><span class="cls_037"> </span><A HREF="https://bit.ly/2zisfxm/">https://bit.ly/2ziSFXm</A> </div>
+<div style="position:absolute;left:11.00px;top:367.08px" class="cls_021"><span class="cls_021">11080 King Road, Richmond, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:368.08px" class="cls_021"><span class="cls_021">$1,368,800</span></div>
+<div style="position:absolute;left:449.67px;top:366.56px" class="cls_038"><span class="cls_038"> </span><A HREF="https://bit.ly/2kbbvhv/">https://bit.ly/2KBbvhv</A> </div>
+<div style="position:absolute;left:11.00px;top:389.08px" class="cls_021"><span class="cls_021">2985 E 6Th Avenue, Vancouver, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:390.08px" class="cls_021"><span class="cls_021">$1,474,800</span></div>
+<div style="position:absolute;left:449.67px;top:388.51px" class="cls_039"><span class="cls_039"> </span><A HREF="https://bit.ly/2kuxazx/">https://bit.ly/2KUXaZx</A> </div>
+<div style="position:absolute;left:449.67px;top:410.24px" class="cls_040"><span class="cls_040">h</span></div>
+<div style="position:absolute;left:458.98px;top:410.24px" class="cls_040"><span class="cls_040">ttps://bit.ly/2tYNaIc</span></div>
+<div style="position:absolute;left:11.00px;top:411.08px" class="cls_021"><span class="cls_021">9591 Florimond Road, Richmond, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:412.08px" class="cls_021"><span class="cls_021">$1,500,000</span></div>
+<div style="position:absolute;left:11.00px;top:433.08px" class="cls_021"><span class="cls_021">3330 W River Road, Delta, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:434.08px" class="cls_021"><span class="cls_021">$1,650,000</span></div>
+<div style="position:absolute;left:449.67px;top:432.86px" class="cls_041"><span class="cls_041"> </span><A HREF="https://bit.ly/2kcsbxc/">https://bit.ly/2KCSBXC</A> </div>
+<div style="position:absolute;left:449.67px;top:454.29px" class="cls_042"><span class="cls_042">h</span></div>
+<div style="position:absolute;left:459.08px;top:454.29px" class="cls_042"><span class="cls_042">ttps://bit.ly/2IXn9xr</span></div>
+<div style="position:absolute;left:11.00px;top:455.08px" class="cls_021"><span class="cls_021">4855 Smith Avenue, Burnaby, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:456.08px" class="cls_021"><span class="cls_021">$1,999,000</span></div>
+<div style="position:absolute;left:11.00px;top:477.08px" class="cls_021"><span class="cls_021">4851 Francis Road, Richmond, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:478.08px" class="cls_021"><span class="cls_021">$2,100,000</span></div>
+<div style="position:absolute;left:449.67px;top:476.86px" class="cls_043"><span class="cls_043"> </span><A HREF="https://bit.ly/2ubdrsh/">https://bit.ly/2ubdrSH</A> </div>
+<div style="position:absolute;left:11.00px;top:499.08px" class="cls_021"><span class="cls_021">55 W Woodstock Avenue, Vancouver, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:500.08px" class="cls_021"><span class="cls_021">$2,138,000</span></div>
+<div style="position:absolute;left:449.67px;top:498.70px" class="cls_044"><span class="cls_044"> </span><A HREF="https://bit.ly/2kop1sj/">https://bit.ly/2KOP1sJ</A> </div>
+<div style="position:absolute;left:11.00px;top:521.08px" class="cls_021"><span class="cls_021">4839 Francis Road, Richmond, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:522.08px" class="cls_021"><span class="cls_021">$2,250,000</span></div>
+<div style="position:absolute;left:449.67px;top:521.44px" class="cls_045"><span class="cls_045"> </span><A HREF="https://bit.ly/2mrjuw6/">https://bit.ly/2MRJUW6</A> </div>
+<div style="position:absolute;left:11.00px;top:543.08px" class="cls_021"><span class="cls_021">2604 E 46Th Avenue, Vancouver, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:544.08px" class="cls_021"><span class="cls_021">$2,290,000</span></div>
+<div style="position:absolute;left:449.67px;top:543.11px" class="cls_046"><span class="cls_046"> </span><A HREF="https://bit.ly/2krqwlr/">https://bit.ly/2KRqwLr</A> </div>
+<div style="position:absolute;left:11.00px;top:565.08px" class="cls_021"><span class="cls_021">4833 Francis Road, Richmond, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:566.08px" class="cls_021"><span class="cls_021">$2,350,000</span></div>
+<div style="position:absolute;left:449.67px;top:564.97px" class="cls_047"><span class="cls_047"> </span><A HREF="https://bit.ly/2ly25xo/">https://bit.ly/2lY25xO</A> </div>
+<div style="position:absolute;left:11.00px;top:587.08px" class="cls_021"><span class="cls_021">4503 Marine Drive, West Vancouver, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:588.08px" class="cls_021"><span class="cls_021">$2,499,999</span></div>
+<div style="position:absolute;left:449.67px;top:586.75px" class="cls_048"><span class="cls_048">h</span></div>
+<div style="position:absolute;left:459.01px;top:586.75px" class="cls_048"><span class="cls_048">ttps://bit.ly/2ucyfcL</span></div>
+<div style="position:absolute;left:11.00px;top:609.08px" class="cls_021"><span class="cls_021">1826 W 12Th Avenue, Vancouver, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:610.08px" class="cls_021"><span class="cls_021">$2,680,000</span></div>
+<div style="position:absolute;left:449.67px;top:608.83px" class="cls_049"><span class="cls_049"> </span><A HREF="https://bit.ly/2j1o4bt/">https://bit.ly/2J1O4bt</A> </div>
+<div style="position:absolute;left:11.00px;top:631.08px" class="cls_021"><span class="cls_021">2856 W 3Rd Avenue, Vancouver, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:632.08px" class="cls_021"><span class="cls_021">$2,880,000</span></div>
+<div style="position:absolute;left:449.67px;top:630.93px" class="cls_050"><span class="cls_050"> </span><A HREF="https://bit.ly/2kvr0f3/">https://bit.ly/2KVR0f3</A> </div>
+<div style="position:absolute;left:11.00px;top:653.08px" class="cls_021"><span class="cls_021">12825 Squamish Valley Road, Squamish, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:654.08px" class="cls_021"><span class="cls_021">$3,680,000</span></div>
+<div style="position:absolute;left:449.67px;top:653.62px" class="cls_051"><span class="cls_051"> </span><A HREF="https://bit.ly/2mvny7h/">https://bit.ly/2MVNY7H</A> </div>
+<div style="position:absolute;left:11.00px;top:675.08px" class="cls_021"><span class="cls_021">3561 Mayfair Avenue, Vancouver, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:676.08px" class="cls_021"><span class="cls_021">$3,688,000</span></div>
+<div style="position:absolute;left:449.67px;top:675.34px" class="cls_052"><span class="cls_052"> </span><A HREF="https://bit.ly/2lxqvmo/">https://bit.ly/2lXQvmo</A> </div>
+<div style="position:absolute;left:11.00px;top:697.08px" class="cls_021"><span class="cls_021">5315 Seaside Place, West Vancouver, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:698.08px" class="cls_021"><span class="cls_021">$6,399,000</span></div>
+<div style="position:absolute;left:449.67px;top:696.92px" class="cls_053"><span class="cls_053">h</span></div>
+<div style="position:absolute;left:458.99px;top:696.92px" class="cls_053"><span class="cls_053">ttps://bit.ly/2IZdPtb</span></div>
+<div style="position:absolute;left:11.00px;top:719.08px" class="cls_021"><span class="cls_021">4379 W 16Th Avenue, Vancouver, BC:</span></div>
+<div style="position:absolute;left:345.38px;top:720.08px" class="cls_021"><span class="cls_021">$4,188,000</span></div>
+<div style="position:absolute;left:449.67px;top:719.13px" class="cls_057"><span class="cls_057">h</span></div>
+<div style="position:absolute;left:458.81px;top:719.13px" class="cls_057"><span class="cls_057">ttps://bit.ly/2J0HQst</span></div>
+<div style="position:absolute;left:312.00px;top:769.86px" class="cls_002"><span class="cls_002">Iconic Marketing Group - Newsletter - July 2018</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:4010px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="2b480b24-8c78-11e8-b59b-0cc47a792c0a_id_2b480b24-8c78-11e8-b59b-0cc47a792c0a_files/background6.jpg" width=612 height=792></div>
+<div style="position:absolute;left:539.14px;top:8.50px" class="cls_002"><span class="cls_002">JULY 2018</span></div>
+<div style="position:absolute;left:78.00px;top:20.30px" class="cls_003"><span class="cls_003">I</span><span class="cls_004">CONIC </span><span class="cls_003">M</span><span class="cls_004">ARKETING </span><span class="cls_003">G</span><span class="cls_004">ROUP</span></div>
+<div style="position:absolute;left:96.66px;top:52.32px" class="cls_004"><span class="cls_004">JULY 2018 - NEWSLETTER</span></div>
+<div style="position:absolute;left:9.24px;top:94.00px" class="cls_082"><span class="cls_082">ATTACHED</span></div>
+<div style="position:absolute;left:9.24px;top:151.28px" class="cls_021"><span class="cls_021">6233 Garrison Court, Richmond, BC:</span></div>
+<div style="position:absolute;left:344.71px;top:151.41px" class="cls_021"><span class="cls_021">$2,650,000</span></div>
+<div style="position:absolute;left:441.00px;top:150.65px" class="cls_059"><span class="cls_059"> </span><A HREF="https://bit.ly/2jwnlij/">https://bit.ly/2JwNliJ</A> </div>
+<div style="position:absolute;left:9.24px;top:180.27px" class="cls_021"><span class="cls_021">7280 Lombard Road, Richmond, BC:</span></div>
+<div style="position:absolute;left:344.71px;top:180.40px" class="cls_021"><span class="cls_021">$1,589,800</span></div>
+<div style="position:absolute;left:441.00px;top:180.35px" class="cls_058"><span class="cls_058"> </span><A HREF="https://bit.ly/2jaxnuu/">https://bit.ly/2JAxnUU</A> </div>
+<div style="position:absolute;left:9.24px;top:209.26px" class="cls_021"><span class="cls_021">314 98 Laval Street, Coquitlam, BC:</span></div>
+<div style="position:absolute;left:356.23px;top:209.39px" class="cls_021"><span class="cls_021">$344,900</span></div>
+<div style="position:absolute;left:441.00px;top:209.39px" class="cls_061"><span class="cls_061"> </span><A HREF="https://bit.ly/2l419h6/">https://bit.ly/2L419H6</A> </div>
+<div style="position:absolute;left:9.24px;top:238.25px" class="cls_021"><span class="cls_021">108 2677 E Broadway, Vancouver, BC:</span></div>
+<div style="position:absolute;left:356.23px;top:238.38px" class="cls_021"><span class="cls_021">$515,000</span></div>
+<div style="position:absolute;left:441.00px;top:238.31px" class="cls_060"><span class="cls_060"> </span><A HREF="https://bit.ly/2uecjph/">https://bit.ly/2uEcJPh</A> </div>
+<div style="position:absolute;left:9.24px;top:267.25px" class="cls_021"><span class="cls_021">5 1820 Bayswater Street, Vancouver, BC:</span></div>
+<div style="position:absolute;left:344.71px;top:267.37px" class="cls_021"><span class="cls_021">$1,499,000</span></div>
+<div style="position:absolute;left:441.00px;top:267.06px" class="cls_062"><span class="cls_062"> </span><A HREF="https://bit.ly/2jzrfta/">https://bit.ly/2JzrFTa</A> </div>
+<div style="position:absolute;left:9.24px;top:296.24px" class="cls_021"><span class="cls_021">5452 Manor Street, Burnaby, BC:</span></div>
+<div style="position:absolute;left:344.71px;top:296.37px" class="cls_021"><span class="cls_021">$1,188,000</span></div>
+<div style="position:absolute;left:441.00px;top:296.10px" class="cls_063"><span class="cls_063"> </span><A HREF="https://bit.ly/2lxicxl/">https://bit.ly/2LxicxL</A> </div>
+<div style="position:absolute;left:9.24px;top:325.23px" class="cls_021"><span class="cls_021">14 9688 Keefer Avenue, Richmond, BC:</span></div>
+<div style="position:absolute;left:356.23px;top:325.36px" class="cls_021"><span class="cls_021">$895,000</span></div>
+<div style="position:absolute;left:441.00px;top:325.57px" class="cls_064"><span class="cls_064"> </span><A HREF="https://bit.ly/2uszff1/">https://bit.ly/2uSZFF1</A> </div>
+<div style="position:absolute;left:9.24px;top:354.22px" class="cls_021"><span class="cls_021">26 2979 Panorama Drive, Coquitlam, BC:</span></div>
+<div style="position:absolute;left:356.23px;top:354.35px" class="cls_021"><span class="cls_021">$888,000</span></div>
+<div style="position:absolute;left:441.00px;top:354.53px" class="cls_065"><span class="cls_065"> </span><A HREF="https://bit.ly/2ljmiya/">https://bit.ly/2LjMiYA</A> </div>
+<div style="position:absolute;left:9.24px;top:383.21px" class="cls_021"><span class="cls_021">402 4388 Buchanan Street, Burnaby, BC:</span></div>
+<div style="position:absolute;left:356.23px;top:383.34px" class="cls_021"><span class="cls_021">$709,000</span></div>
+<div style="position:absolute;left:441.00px;top:384.06px" class="cls_066"><span class="cls_066"> </span><A HREF="https://bit.ly/2o3x48m/">https://bit.ly/2O3x48m</A> </div>
+<div style="position:absolute;left:9.24px;top:412.21px" class="cls_021"><span class="cls_021">206 5625 Senlac Street, Vancouver, BC:</span></div>
+<div style="position:absolute;left:356.23px;top:412.33px" class="cls_021"><span class="cls_021">$699,000</span></div>
+<div style="position:absolute;left:441.00px;top:412.37px" class="cls_068"><span class="cls_068"> </span><A HREF="https://bit.ly/2unixje/">https://bit.ly/2uNIxjE</A> </div>
+<div style="position:absolute;left:9.24px;top:441.20px" class="cls_021"><span class="cls_021">210 5625 Senlac Street, Vancouver, BC:</span></div>
+<div style="position:absolute;left:356.23px;top:441.33px" class="cls_021"><span class="cls_021">$699,000</span></div>
+<div style="position:absolute;left:441.00px;top:441.50px" class="cls_067"><span class="cls_067"> </span><A HREF="https://bit.ly/2ulrb7/">https://bit.ly/2uLrb7</A> </div>
+<div style="position:absolute;left:595.59px;top:441.50px" class="cls_067"><span class="cls_067">j</span></div>
+<div style="position:absolute;left:9.24px;top:470.19px" class="cls_021"><span class="cls_021">303 4400 Buchanan Street, Burnaby, BC:</span></div>
+<div style="position:absolute;left:356.23px;top:470.32px" class="cls_021"><span class="cls_021">$659,000</span></div>
+<div style="position:absolute;left:441.00px;top:471.18px" class="cls_069"><span class="cls_069"> </span><A HREF="https://bit.ly/2uveqou/">https://bit.ly/2uveqOU</A> </div>
+<div style="position:absolute;left:9.24px;top:499.18px" class="cls_021"><span class="cls_021">7 5520 Mccourt Road, Sechelt, BC:</span></div>
+<div style="position:absolute;left:356.23px;top:499.31px" class="cls_021"><span class="cls_021">$524,000</span></div>
+<div style="position:absolute;left:441.00px;top:499.94px" class="cls_070"><span class="cls_070"> </span><A HREF="https://bit.ly/2zpxpc5/">https://bit.ly/2zPxpc5</A> </div>
+<div style="position:absolute;left:9.24px;top:528.17px" class="cls_021"><span class="cls_021">14358 109 Avenue, Surrey, BC:</span></div>
+<div style="position:absolute;left:344.71px;top:528.30px" class="cls_021"><span class="cls_021">$1,129,000</span></div>
+<div style="position:absolute;left:441.00px;top:528.81px" class="cls_071"><span class="cls_071"> </span><A HREF="https://bit.ly/2lys1ls/">https://bit.ly/2Lys1LS</A> </div>
+<div style="position:absolute;left:9.24px;top:557.17px" class="cls_021"><span class="cls_021">12825 Squamish Valley Road, Squamish, BC:</span></div>
+<div style="position:absolute;left:344.71px;top:557.29px" class="cls_021"><span class="cls_021">$2,890,000</span></div>
+<div style="position:absolute;left:441.00px;top:557.89px" class="cls_072"><span class="cls_072"> </span><A HREF="https://bit.ly/2o1l73l/">https://bit.ly/2O1l73l</A> </div>
+<div style="position:absolute;left:9.24px;top:586.16px" class="cls_021"><span class="cls_021">5668 Wessex Street, Vancouver, BC:</span></div>
+<div style="position:absolute;left:356.23px;top:586.29px" class="cls_021"><span class="cls_021">$699,000</span></div>
+<div style="position:absolute;left:441.00px;top:587.19px" class="cls_073"><span class="cls_073"> </span><A HREF="https://bit.ly/2l32ox4/">https://bit.ly/2L32oX4</A> </div>
+<div style="position:absolute;left:9.24px;top:615.15px" class="cls_021"><span class="cls_021">11762 75A Avenue, Delta, BC:</span></div>
+<div style="position:absolute;left:356.23px;top:615.28px" class="cls_021"><span class="cls_021">$998,900</span></div>
+<div style="position:absolute;left:441.00px;top:616.57px" class="cls_074"><span class="cls_074"> </span><A HREF="https://bit.ly/2ulowas/">https://bit.ly/2uLoWAS</A> </div>
+<div style="position:absolute;left:9.24px;top:644.14px" class="cls_021"><span class="cls_021">20343 116 Avenue, Maple Ridge, BC:</span></div>
+<div style="position:absolute;left:356.23px;top:644.27px" class="cls_021"><span class="cls_021">$589,000</span></div>
+<div style="position:absolute;left:441.00px;top:645.86px" class="cls_075"><span class="cls_075">htt</span></div>
+<div style="position:absolute;left:460.78px;top:645.86px" class="cls_075"><span class="cls_075">ps://bit.ly/2NZ51Ha</span></div>
+<div style="position:absolute;left:17.99px;top:686.94px" class="cls_076"><span class="cls_076">Khash Raeisi *PREC</span></div>
+<div style="position:absolute;left:185.20px;top:686.94px" class="cls_076"><span class="cls_076">Randy Zhao</span></div>
+<div style="position:absolute;left:17.99px;top:699.71px" class="cls_078"><span class="cls_078">Senior Investment Advisor</span></div>
+<div style="position:absolute;left:185.20px;top:699.71px" class="cls_078"><span class="cls_078">Senior Commercial Broker</span></div>
+<div style="position:absolute;left:17.99px;top:710.50px" class="cls_078"><span class="cls_078">RE/MAX Commercial Advantage</span></div>
+<div style="position:absolute;left:185.20px;top:710.50px" class="cls_078"><span class="cls_078">RE/MAX Commercial Advantage</span></div>
+<div style="position:absolute;left:17.99px;top:721.28px" class="cls_078"><span class="cls_078">Phone: 778-987-7029</span></div>
+<div style="position:absolute;left:185.20px;top:721.28px" class="cls_078"><span class="cls_078">Phone: 778-251-1001</span></div>
+<div style="position:absolute;left:17.99px;top:732.06px" class="cls_078"><span class="cls_078">Email: Khashraeisi@gmail.com</span></div>
+<div style="position:absolute;left:185.20px;top:732.06px" class="cls_078"><span class="cls_078">Email: randyylzhao@gmail.com</span></div>
+<div style="position:absolute;left:40.78px;top:746.97px" class="cls_078"><span class="cls_078">500-889 West Pender Street, Vancouver, B.C., V6C 3B2</span></div>
+<div style="position:absolute;left:11.70px;top:767.40px" class="cls_079"><span class="cls_079">E. & O. E.: All information contained herein is from sources we deem reliable, and we have no reason to doubt its accuracy; however, no guarantee or responsibility is assumed thereof, and it shall not form any part of future</span></div>
+<div style="position:absolute;left:88.58px;top:774.59px" class="cls_079"><span class="cls_079">contracts. Properties are submitted subject to errors and omissions and all information should be carefully verified. All measurements quoted herein are approximate.</span></div>
+</div>
+
+</body>
+</html>
